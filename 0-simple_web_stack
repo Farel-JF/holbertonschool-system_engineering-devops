@@ -1,0 +1,20 @@
+User's Computer
+     |
+     | (HTTP Request)
+     |
+     v
+www.foobar.com
+     |
+     | (DNS Resolution)
+     |
+     v
+8.8.8.8 (Server)
+     |--------------------|
+     | Web Server (Nginx) |
+     |--------------------|
+     | Application Server |
+     |--------------------|
+     | Application Files  |
+     |--------------------|
+     | Database (MySQL)   |
+     |--------------------|
